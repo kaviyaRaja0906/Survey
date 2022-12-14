@@ -1,0 +1,233 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #FEFBF6;
+}
+span{
+    background-color: transparent;
+}
+.navbar{
+    text-align: center;
+    background-color: #243A73;
+    color: white;
+}
+.navbar h5{
+    background-color: #243A73;
+    text-align: center;
+    margin-left: 40%;
+}
+.head{
+    text-align: center;
+    margin-top: 2%;
+}
+.alert{
+    color: red;
+}
+.highlight{
+    background-color: #FCE700;
+}
+.survey-img{
+    width: 500px;
+}
+.content{
+    color: #7F8487;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+}
+.yes-btn,.no-btn{
+    width: 550px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #F49D1A;
+    border: 2px solid #F49D1A;
+    color: #fff;
+    font-weight: 600;
+}
+.yes-btn:hover,
+.no-btn:hover{
+    color: #000;
+}
+.yes-btn:focus,
+.no-btn:focus{
+    border: 2px solid #F49D1A;
+}
+.Analyze{
+    padding: 50px;
+    background-color: #fff;
+    width: 950px;
+    margin-left: 6%;
+    border-top: 5px solid #243A73;
+}
+.Review,.matching,.confirming{
+    background-color: #fff;
+}
+.last-step{
+    color: #DC3535;
+    background-color: #fff;
+    font-weight: 800;
+}
+.call-highlight{
+    background-color: #FCE700;
+    width: 300px;
+    text-align: center;
+    margin-left: 30%;
+}
+.call-des{
+    background-color: #fff;
+    font-weight: 800;
+}
+.tap{
+    background-color: #fff;
+    font-weight: 800;
+}
+.glow{
+    width: 700px;
+    color: #fff;
+    background-color: #3EC70B;
+    border: 2px solid #3EC70B;
+    -webkit-animation: glow 1500ms infinite;
+    -moz-animation: glow 1500ms infinite;
+    -o-animation: glow 1500ms infinite;
+    animation: glow 1500ms infinite;
+    padding: 8px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 800;
+}
+@-webkit-keyframes glow {
+    0% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+    50% { background-color: #54B435; -webkit-box-shadow: 0 0 40px #54B435; }
+    100% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+  }
+  
+  @-moz-keyframes glow {
+    0% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+    50% { background-color: #54B435; -webkit-box-shadow: 0 0 40px #54B435; }
+    100% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+  }
+  
+  @-o-keyframes glow {
+    0% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+    50% { background-color: #54B435; -webkit-box-shadow: 0 0 40px #54B435; }
+    100% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+  }
+  
+  @keyframes glow {
+    0% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+    50% { background-color: #54B435; -webkit-box-shadow: 0 0 40px #54B435; }
+    100% { background-color: #3EC70B; -webkit-box-shadow: 0 0 3px #3EC70B; }
+  }
+.conditions{
+    margin-top: 2%;
+    color: #b2b2b2;
+    font-size: 1rem;
+    text-align: center;
+    width: 850px;
+}
+
+b{
+    color: #243A73;
+    background-color: #fff;
+}
+/*Footer*/
+.footer{
+    align-items: center;
+    margin-left: 10%;
+}
+.hr{
+  border-top: 2px solid #413F42;
+  width: 950px;
+  margin-right: 300px;
+}
+.footer-txt{
+    color: #7F8487;
+}
+.privacy{
+    color: #b2b2b2;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .head{
+    width: 350px;
+    max-width: 100%;
+    margin-left: 1%;
+  }
+  .navbar h5{
+    margin-left: 15%;
+    text-align: left;
+    font-size: medium;
+  }
+  .survey-img{
+    width: 300px;
+  }
+  .yes-btn,.no-btn{
+    max-width: 100%;
+  }
+  .yes-btn:hover,
+.no-btn:hover{
+    color: #000;
+}
+.Qn-1{
+    font-size: medium;
+}
+.Analyze{
+   width: 350px;
+   margin-left: 2%;
+}
+.last-step{
+    width: 300px;
+    margin-right: 4%;
+}
+.call-highlight{
+    width: 250px;
+    margin-left: 1%;
+}
+.glow{
+    width: 250px;
+}
+.conditions{
+    max-width: 100%;
+}
+.footer{
+    margin-left: 5%;
+   width: 350px;
+}
+.hr{
+   width: 350px;
+}
+}
+
+@media only screen and (min-width:767px) and (max-width: 1023px) {
+    .navbar h5{
+        margin-left: 30%;
+        text-align: center;
+      }
+    .head{
+        max-width: 100%;
+    }
+    .head-h{
+        font-size: 1.4rem;
+    }
+    .conditions{
+        max-width: 100%;
+    }
+    .hr{
+        width: 700px;
+    }
+    .Analyze{
+        width: 700px;
+        margin-left: 2%;
+     }
+     .last-step{
+         width: 700px;
+         margin-right: 4%;
+     }
+     .call-highlight{
+         width: 600px;
+         margin-left: 1%;
+     }
+     .glow{
+         width: 600px;
+     }
+     
+}
